@@ -10,7 +10,7 @@ public class Test {
         System.out.println(singleton02==singleton02X);
 
         for (int i = 0; i <10;i++) {
-            new Thread(()->  System.out.println( Singleton02.getInstance().hashCode()) ).start();
+            new Thread(()->  System.out.println( Singleton02.getInstance().hashCode())).start();
             new Thread(()->  System.out.println( Singleton02.getInstance().hashCode())).start();
             new Thread(()->   System.out.println( Singleton02.getInstance().hashCode())).start();
             new Thread(()->   System.out.println( Singleton02.getInstance().hashCode())).start();
