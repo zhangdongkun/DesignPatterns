@@ -1,6 +1,4 @@
-package cn.zdk.Singleton;
-
-import sun.security.jca.GetInstance;
+package cn.zdk.singleton;
 
 /**
  * 通过静态内部类实现单例

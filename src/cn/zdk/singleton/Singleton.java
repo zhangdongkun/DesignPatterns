@@ -1,6 +1,6 @@
-package cn.zdk.Singleton;
+package cn.zdk.singleton;
 
-/***
+/***s
  * 通过枚举来实现单例
  */
 public enum Singleton {

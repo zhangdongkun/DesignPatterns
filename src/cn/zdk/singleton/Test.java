@@ -1,4 +1,4 @@
-package cn.zdk.Singleton;
+package cn.zdk.singleton;
 
 public class Test {
     public static void main(String[] args) {
